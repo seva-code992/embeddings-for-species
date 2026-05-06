@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.python-version
+Bepen.gff3
+Pinsy01.tsv
+Tieton02.gff3
+tieton.csv
+Bepen.tsv
+Potra02.gff3
+Tieton02.tsv
+Picab02.gff3
+Potra02.tsv
+bepen.csv
+Picab02.tsv
+TAIR10_GFF3_genes_sorted.gff3
+database.db
+picab.csv
+pinsy.csv
+database.db.wal
+TAIR10_araport11_sorted.gff3 
+Pinsy01.gff3
+
+# Virtual environments
+.venv

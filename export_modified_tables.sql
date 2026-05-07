@@ -200,7 +200,7 @@ LIMIT 1
 
 Create table tieton as 
 select a.*, b.Description 
-from pinsy_ids a 
+from tieton_ids a 
 left join lateral(
 select Description
 from middle_tieton b 

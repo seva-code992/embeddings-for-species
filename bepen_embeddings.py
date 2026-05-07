@@ -13,6 +13,12 @@ from pathlib import Path
 #Compute the embeddings for Bepen#
 ############################################################################################################################################################################################################################################
 
+model = SentenceTransformer(
+    "mixedbread-ai/mxbai-embed-large-v1",
+    prompts={"retrieval": "Represent this sentence for searching relevant passages: "},
+)
+
+
 p= Path(__file__).resolve().parent / "bepen.csv"
 lines = p.read_text().splitlines()
 
